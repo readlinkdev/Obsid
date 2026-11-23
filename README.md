@@ -74,6 +74,18 @@ The tests cover vault creation and recovery, encryption at rest, backup and rest
 
 Obsid stores its data in the operating system's application data directory. Backups are created locally and can be restored from **Settings → Local backup**. Restoring a backup locks the vault after replacing its data. Keep a separate copy of your recovery key; backups do not replace it.
 
+## Donations
+
+Obsid is an independent project. If you find it useful, you can support its development with a voluntary donation. Donations are optional and do not provide additional features, support, or influence over the project.
+
+Crypto donation addresses will be published here after they have been verified by the maintainers:
+
+- Bitcoin (BTC): address not published yet
+- Ethereum (ETH): address not published yet
+- Monero (XMR): address not published yet
+
+Always verify donation addresses through this repository before sending funds. Cryptocurrency transactions are generally irreversible. Never send passwords, recovery keys, vault databases, or other private vault data as a donation.
+
 ## Contributing
 
 Contributions are welcome. Before opening a pull request:
@@ -84,3 +96,9 @@ Contributions are welcome. Before opening a pull request:
 4. Describe user-visible changes and any security implications in the pull request.
 
 Please do not include real passwords, recovery keys, vault databases, or personal backup files in issues or pull requests.
+
+## License and project identity
+
+The source code is provided under the [MIT License](LICENSE). It permits use, modification, redistribution, and commercial use, subject to its terms.
+
+The MIT License does not grant permission to impersonate the official Obsid project or imply endorsement. The Obsid name, logo, and project branding are not covered by the software license. See [TRADEMARKS.md](TRADEMARKS.md) for the project identity policy.
